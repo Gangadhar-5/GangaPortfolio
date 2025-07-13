@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import "tailwindcss";
+
+:root {
+   --font-ubuntu: 'Ubuntu', sans-serif;
+}
+
+.ubuntu-regular {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ubuntu-medium {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ubuntu-bold {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.container{
+  background:#050414;
+  transition: 0.5s;
+}
+
+.container.light{
+  background:#f5f5f5;
+  color: #000000;
+}
+
+.navbar{
+  transition: 0.5s;
+}
+
+.light .navbar{
+  background: #f5f5f5;
+  color: #000000;
+} 
+
+
+
+.light .navbar-item:hover{
+  color: #1DCD9F;
+  opacity: 1;
+}
+/* .light .navbar:hover{
+  opacity: 1;
+} */ 
+
+.light .navbar-icon {
+  color: #7e7c7c;
+}
+
+.light .navbar-icon :hover{
+  color:#000000;
+}
+
+
+
+.toggle-icon{
+  width: 26px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.8;
+}
+.dark .toggle-icon:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+.light .toggle-icon:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+/*About Section */
+.light .textlight{
+  background:#f5f5f5;
+  color: #1DCD9F;
+  border-color: #1DCD9F;
+}
+
+.light .buttonlight{
+  background: #4fe5bd;
+  color: #f5f5f5;
+  opacity: 0.8;
+}
+.light .buttonlight:hover{
+  background: #1DCD9F;
+  color: #f5f5f5;
+  opacity: 1;
+}
+.light .paralight{
+  color: #555555;
+}
+
+.light .barbacklight{
+  background: #1DCD9F;
+}
+
+.light .backlight{
+  background: transparent;
+  color: black;
+}
+.light .shadowlight{
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+/*Projects*/
+.light .popbacklight{
+  background: #f5f3f3;
+  
+}
+.light .crossbutton{
+  color: #7e7c7c;
+}
+.light .crossbutton:hover{
+  color: black
+}
+.light .tagstyle{
+  background: #1DCD9F;
+}
