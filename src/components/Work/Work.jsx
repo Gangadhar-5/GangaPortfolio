@@ -20,7 +20,7 @@ const Work = () => {
       {/* Section Title */}
       <div className="text-center mb-16">
         <h2 className="navbar text-4xl font-bold text-white">PROJECTS</h2>
-        <div className="barbacklight w-42 h-1 bg-purple-500 mx-auto mt-4"></div>
+        <div className="barbacklight w-42 h-1 bg-[#FFD966] mx-auto mt-4"></div>
         <p className="paralight text-gray-400 mt-4 text-lg font-semibold">
           A showcase of the projects I have worked on, highlighting my skills
           and experience in various technologies
@@ -53,7 +53,7 @@ const Work = () => {
                 {project.tags.map((tag, index) => (
                   <span
                     key={index}
-                    className="backlight tagstyle inline-block bg-[#251f38] text-xs font-semibold text-purple-500 rounded-full px-2 py-1 mr-2 mb-2"
+                    className="backlight tagstyle inline-block bg-[#251f38] text-xs font-semibold text-[#FFD966] rounded-full px-2 py-1 mr-2 mb-2"
                   >
                     {tag}
                   </span>
@@ -71,7 +71,7 @@ const Work = () => {
             <div className="flex justify-end p-4">
               <button
                 onClick={handleCloseModal}
-                className="crossbutton text-white text-3xl font-bold hover:text-purple-500 hover:cursor-pointer"
+                className="crossbutton text-white text-3xl font-bold hover:text-[#FFD966] hover:cursor-pointer"
               >
                 &times;
               </button>
@@ -96,7 +96,7 @@ const Work = () => {
                   {selectedProject.tags.map((tag, index) => (
                     <span
                       key={index}
-                      className="backlight tagstyle bg-[#251f38] text-xs font-semibold text-purple-500 rounded-full px-2 py-1"
+                      className="backlight tagstyle bg-[#251f38] text-xs font-semibold text-[#FFD966] rounded-full px-2 py-1"
                     >
                       {tag}
                     </span>
@@ -107,7 +107,7 @@ const Work = () => {
                     href={selectedProject.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="buttonlight w-1/2 bg-gray-800 hover:bg-purple-800 text-gray-400 lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center"
+                    className="buttonlight w-1/2 bg-gray-800 hover:bg-[#FFD966] text-gray-400 lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center"
                   >
                     View Code
                   </a>
@@ -115,7 +115,7 @@ const Work = () => {
                     href={selectedProject.webapp}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="buttonlight w-1/2 bg-purple-600 hover:bg-purple-800 text-white lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center"
+                    className="buttonlight w-1/2 bg-[#FFD966] hover:bg-[#FFD966] text-white lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center"
                   >
                     View Live
                   </a>

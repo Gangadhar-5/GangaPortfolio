@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
 import darkModeIcon from '../../assets/day.png'; 
 import lightModeIcon from '../../assets/night.png'; 
 
@@ -93,6 +94,14 @@ const Navbar = ({theme , setTheme}) => {
           >
             <FaLinkedin size={24} />
           </a>
+          <a
+            href="https://leetcode.com/u/ganga_7/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="navbar-icon text-gray-300 hover:text-[#FFD966]"
+          >
+            <SiLeetcode size={24} />
+          </a>
         </div>
 
         {/* Mobile Menu Icon */}
@@ -150,6 +159,14 @@ const Navbar = ({theme , setTheme}) => {
               >
                 <FaLinkedin size={24} />
               </a>
+              <a
+                href="https://leetcode.com/u/ganga_7/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="navbar-icon text-gray-300 hover:text-[#FFD966]"
+              >
+            <SiLeetcode size={24} />
+          </a>
               <img onClick={()=>{toggele_mode()}} src={theme == 'dark' ? darkModeIcon : lightModeIcon} alt="" className='toggle-icon'/>
             </div>
           </ul>
